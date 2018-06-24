@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.aboutMeNavMenu  {
+	float: left;
+}
+
+.projectsNavMenu  {
+	float: right;
+}
+
+.dropDown1 {
+	 position: relative;
+    display: inline-block;
+}
+.show1{
+	display: block;
+}
+.dropDown2 {
+	 position: relative;
+    display: inline-block;
+}
+.show2{
+	display: block;
+}
+ .heroImage {
+	margin: 1rem 0;
+	position: relative;
+}
+header{
+	padding: 0px;
+}
+
+.allSeeingEye {
+	margin: 1rem 0;
+	position: top;
+	margin: 0px auto;
+	display: block;
+	margin-top: 2rem;
+	text-align: center;
+	max-width: 115px;
+}
+
+.headerImageCap {
+	bottom: 0.4rem;
+	padding: 0.5rem;
+	position: center;
+	width: 100%;
+	}
+
+figure figcaption .heroImageCap {
+	bottom: 0.4rem;
+	padding: 0.5rem;
+	position: relative;
+	width: 100%;
+	}
+
+
+
+footer small {
+	margin: 0px auto;
+	display: block;
+	margin-top: 2rem;
+	text-align: center;
+	max-width: 115px;
+}
+
+.jaylenCoding{
+	width: 100%;
+	max-width: 500px;
+}
