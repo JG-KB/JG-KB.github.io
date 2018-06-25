@@ -133,3 +133,18 @@ blockquote {
 	position: center;
 	text-align: center;
 }
+.amokPhoto{
+	position: center;
+	width: 100%;
+	max-width: 700px;
+}
+.reviewsPhoto{
+	position: center;
+	width: 100%;
+	max-width: 700px;
+}
+.fTellerPhoto{
+	position: center;
+	width: 100%;
+	max-width: 700px;
+}
