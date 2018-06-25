@@ -96,6 +96,10 @@ blockquote {
 a{
 	color: darkgreen;
 }
+.projectsLink p {
+	color:darkgreen;
+	background-color: red;
+}
 .contactLinks{
 	border-width: 5px;
 	color: darkgreen;
@@ -107,9 +111,7 @@ a{
 	border-style: solid;
 	border-color: black;
 }
-.aboutMeInfo{
 
-}
 .proImageCap{
 	border-left-style: outset;
 	border-bottom-style: outset;
@@ -120,5 +122,23 @@ a{
 	color: red;
 }
 .aboutMeInfo {
+	color: darkgreen;
+}
+.projectsLink{
+	border-width: 5px;
+	color: darkgreen;
+	border-top-style: double;
+	border-top-color: darkgreen;
+}
+.containerForProjectsPage{
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+}
+
+.projectsContent{
+	color: red;
+}
+.projectsInfo {
 	color: darkgreen;
 }

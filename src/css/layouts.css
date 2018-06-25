@@ -117,3 +117,19 @@ blockquote {
 	text-align: center;
 	color: darkgreen;
 }
+.projectsContent{
+	text-align: center;
+	bottom: 0.4rem;
+	padding: 0.5rem;
+	position: relative;
+	width: 100%;
+	color: red;
+}
+.projectsInfo {
+	text-align: center;
+	color: darkgreen;
+}
+.projectsLink{
+	position: center;
+	text-align: center;
+}
