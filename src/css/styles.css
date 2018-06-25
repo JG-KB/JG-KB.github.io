@@ -114,8 +114,9 @@ a{
 
 .proImageCap{
 	border-left-style: outset;
-	border-bottom-style: outset;
-	border-color: darkgreen;
+	border-bottom-style: inset;
+	border-left-color: red;
+	border-bottom-color: darkgreen;
 	border-width: 10px;
 }
 .aboutMeContent{
@@ -141,4 +142,23 @@ a{
 }
 .projectsInfo {
 	color: darkgreen;
+}
+.aboutMePhoto{
+	border-top-style: : solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: : red;
+	border-left-color: darkgreen;
+	border-right-color: darkgreen;
+	border-bottom-color: red;
+	border-width: 5px;
+}
+.jaylenCoding{
+	border-style: groove;
+	border-right-color: darkgreen;
+	border-left-color: darkgreen;
+	border-bottom-color: red;
+	border-top-color: red;
+	border-width: 5px;
 }
