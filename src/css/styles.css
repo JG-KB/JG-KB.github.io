@@ -1,35 +1,56 @@
-.dropDownButton1 {
-	 background-color: red;
-    color: darkgreen;
-    outline-color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-.dropDownButton1:hover, .dropDownButton1:focus{
-	background-color: green;
-	color:red;
-
-}
-.dropDownContent1 {
-	display: none;
-    position: absolute;
-    background-color: red;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropDownContent1 a {
+a{
 	color: darkgreen;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block
 }
-.dropDown1 a:hover{
-	background-color: green;
+.aboutMeContent{
+	color: red;
 }
+.aboutMeInfo {
+	color: darkgreen;
+}
+
+.aboutMePhoto{
+	border-top-style:  solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color:  red;
+	border-left-color: darkgreen;
+	border-right-color: darkgreen;
+	border-bottom-color: red;
+	border-width: 5px;
+}
+blockquote{
+	width: 10px;
+	font-size: 16px;
+	color: darkgreen;
+
+	 
+}
+.contactLinks{
+	border-width: 5px;
+	color: darkgreen;
+	border-top-style: double;
+	border-top-color: darkgreen;
+}
+.container {
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+	background-image: url(../images/usaMap.jpg);
+}
+
+.containerForAboutMePage{
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+}
+
+.containerForProjectsPage{
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+}
+
 .dropDownButton2 {
 	 background-color: red;
     color: darkgreen;
@@ -37,7 +58,9 @@
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
+	cursor: pointer;
+	border-radius: 50%;
+	
 }
 .dropDownButton2:hover, .dropDownButton2:focus{
 	background-color: green;
@@ -45,7 +68,7 @@
 }
 .dropDownContent2 {
 	display: none;
-    position: absolute;
+    position: relative;
     background-color: red;
     min-width: 160px;
     overflow: auto;
@@ -61,56 +84,71 @@
 .dropDown2 a:hover{
 	background-color: green;
 }
-header {
-	background-color: red;
-	text-decoration: none;
 
-}
-.container {
-	border-width: 5px;
-	border-style: solid;
-	border-color: black;
-	background-image: url(../images/usaMap.jpg);
-
-}
 footer {
 	background-color: red;
 }
+
 footer small{
 	border-style: outset;
 	border-color: green;
 	border-width: 10px;
 	color: black;
 }
+
 footer small a{
 	color: black;
 }
-blockquote {
-	font-size: 25px;
-	color: darkgreen;
-	border-bottom-style: solid;
-	border-color: green;
+
+header {
+	background-color: red;
+	text-decoration: none;
+
+}
+
+.jaylenCoding{
+	text-transform: inherit;
+    word-break: break-word;
+    
+    background-color: red;
+    color:darkgreen;
+	font-size: 45px;
+	border-style: groove;
+	border-right-color: darkgreen;
+	border-left-color: darkgreen;
+	border-bottom-color: red;
+	border-top-color: red;
 	border-width: 5px;
-	 
 }
-a{
+
+.keywords{
 	color: darkgreen;
+	text-align: center;
 }
+
+
+.textBoxP {
+	z-index: 1;
+	width: 200px;
+	display: none;
+	
+	
+	
+  }
+  
+  .textBoxP.open {
+	display: block;
+	z-index: 1;
+	
+  }
+  
+
 .projectsLink p {
 	color:darkgreen;
 	background-color: red;
 }
-.contactLinks{
-	border-width: 5px;
-	color: darkgreen;
-	border-top-style: double;
-	border-top-color: darkgreen;
-}
-.containerForAboutMePage{
-	border-width: 5px;
-	border-style: solid;
-	border-color: black;
-}
+
+
 
 .proImageCap{
 	border-left-style: outset;
@@ -119,23 +157,17 @@ a{
 	border-bottom-color: darkgreen;
 	border-width: 10px;
 }
-.aboutMeContent{
-	color: red;
+.proImageCap > ul {
+	list-style-type: none ;
 }
-.aboutMeInfo {
-	color: darkgreen;
-}
+
 .projectsLink{
 	border-width: 5px;
 	color: darkgreen;
 	border-top-style: double;
 	border-top-color: darkgreen;
 }
-.containerForProjectsPage{
-	border-width: 5px;
-	border-style: solid;
-	border-color: black;
-}
+
 
 .projectsContent{
 	color: red;
@@ -143,22 +175,20 @@ a{
 .projectsInfo {
 	color: darkgreen;
 }
-.aboutMePhoto{
-	border-top-style: : solid;
-	border-bottom-style: solid;
-	border-right-style: solid;
-	border-left-style: solid;
-	border-top-color: : red;
-	border-left-color: darkgreen;
-	border-right-color: darkgreen;
-	border-bottom-color: red;
-	border-width: 5px;
-}
-.jaylenCoding{
-	border-style: groove;
-	border-right-color: darkgreen;
-	border-left-color: darkgreen;
-	border-bottom-color: red;
-	border-top-color: red;
-	border-width: 5px;
+
+
+textarea{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 116px;
+    line-height: 1.25;
+    background-color: blue;
+    color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	opacity: 0;
+	
+    
 }

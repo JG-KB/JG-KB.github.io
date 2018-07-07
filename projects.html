@@ -17,8 +17,30 @@
 		<p> This is my projects page. This is a developing list of things that I have created with my full stack development tool box. I have learned so much in my short time at the WeCanCodeIT bootcamp. I am eager to continue to learn more about coding and to develop my portfolio as I grow. </p> 
 	</main>
 	<main class="projectsLink">
-		<h2> Project Links</h2>
-			<ul>
+		<h2> Project SlideShow</h2>  
+				<div class="slidercontainer">  
+					<div class="showSlide fade">  
+						<img src="./src/images/amok.PNG" alt="code screenshot" class="amokPhoto" />  
+						<div class="slideshowContent"><a href="https://github.com/JG-KB/virtual-pet-amok" target="_blank"> Virtual Pets Amok</a></div>  
+						<div class="proImageCap" ><p>My use of Java was key to my sucess on this project!</p></div>
+					</div>  
+					<div class="showSlide fade">  
+						<img src="./src/images/reviews.PNG" alt="code screenshot" class="reviewsPhoto"/>  
+						<div class="slideshowContent"><a href="https://github.com/JG-KB/reviews" target="_blank"> Website of Reviews </a></div>  
+						<div class="proImageCap" ><p>This project was the first time I used HTML and some CSS for a project! I also used Spring and utilized a controller!</p></div>
+					</div>  
+			  
+					<div class="showSlide fade">  
+						<img src="./src/images/fTeller.PNG" alt="code screenshot" class="fTellerPhoto"/>  
+						<div class="slideshowContent"><a href="https://github.com/JG-KB/fortune-teller" target="_blank"> Fortune Teller</a></div>  
+						<div class="proImageCap" ><p>This is my very first project! I used Java and my new found passion for coding to complete this project!</p></div>
+					</div>  
+					<!-- Navigation arrows -->  
+					<a class="left" onclick="nextSlide(-1)">Back</a>  
+					<a class="right" onclick="nextSlide(1)">Foward</a>  
+				</div>    
+
+			<!-- <ul>
 				<li><a href="https://github.com/JG-KB/virtual-pet-amok" target="_blank"> Virtual Pets Amok</a></li>
 				<img src="./src/images/amok.PNG" alt="code screenshot" class="amokPhoto">
 				<p>My use of Java was key to my sucess on this project!</p>
@@ -28,13 +50,13 @@
 				<li><a href="https://github.com/JG-KB/fortune-teller" target="_blank"> Fortune Teller</a></li>
 				<img src="./src/images/fTeller.PNG" alt="code screenshot" class="fTellerPhoto">
 				<p>This is my very first project! I used Java and my new found passion for coding to complete this project!</p>
-			</ul>
+			</ul> -->
 	</main>
 
 		<footer>
 			<small> <a href="index.html">Home Page</a>
 			</small>
 		</footer>
-
+		<script src="./src/js/slideshow.js"></script>
 </body>
 </html>

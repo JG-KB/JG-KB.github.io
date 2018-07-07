@@ -10,40 +10,38 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <nav class = "aboutMeNavMenu">
-                <div class="dropDown1">
-                 <button onclick="clickFunction1()" class="dropDownButton1">About Me</button>
-                <div id="myDropDown1" class="dropDownContent1" >
-                    <a href = "aboutMe.html">Bio+Contacts+Skills</a>
+        <header class="indexPageHeader">
+            <div>
+            <h3>Daily Affirmation</h3>
+                 <blockquote> "To absorb and use the knowledge and wisdom of my peers and to apply it to my own self-improvement." - Jaylen Guevara-Kirksey Bey</blockquote>
                 </div>
-                </div>
-            </nav>
+                 <figure class ="headerImage">
+                     <img src="./src/images/eye.jpg" alt="All-Seeing Eye of God" class="allSeeingEye">
+                     <figcaption class ="headerImageCap">36jguevara@gmail.com</figcaption>
+                 </figure>
             <nav class = "projectsNavMenu">
                 <div class="dropDown2">
-                <button onclick="clickFunction2()" class="dropDownButton2">Projects</button>
+                <button onclick="clickFunction2()" class="dropDownButton2"><img src="./src/images/jaylen-nav.jpg" class="navMenuPhoto" alt="pic of jaylen"></button>
                 <div id= "myDropDown2" class="dropDownContent2" >
                  <a href="projects.html">P1+P2+P3</a>
+                 <a href="aboutMe.html">About Me</a>
                 </div>
                 </div>
             </nav>
-            <figure class ="headerImage">
-                <img src="./src/images/eye.jpg" alt="All-Seeing Eye of God" class="allSeeingEye">
-                <figcaption class ="headerImageCap"><a href="https://myaccount.google.com/?utm_source=OGB&utm_medium=act" target="_blank"> 36jguevara@gmail.com</a></figcaption>
-            </figure>
         </header>    
     <main class="homePageContent">
         <figure>
-            <img src="./src/images/jaylen-can-code-it.jpg" alt="jaylenTypingCodeAtWeCanCodeIt" class="jaylenCoding">
+            <div class="jaylenCoding"> Hello ! Type where you want to go! use the keywords located at the bottom of the page  </div>
             <figcaption class ="heroImageCap"> Jaylen Guevara-Kirksey Bey</figcaption>
+            <textarea></textarea>
         </figure>
-    <h1 class="headerForQuote"> Daily Affirmation</h1>
-        <blockquote> "To absorb and use the knowledge and wisdom of my peers and to apply it to my own self-improvement". - Jaylen Guevara-Kirksey Bey</blockquote>
+        <h1 class="keywords"> Keywords: About Me, Projects, LinkedIn, GitHub, Email Jaylen, Fun fact.</h1>
     </main>
-        <footer> 
+        <footer class="footerForIndexPage"> 
             <small> a jaylenGuevara-KirkseyBey Work 2018</small>
         </footer>
     </div><!-- /.container -->
+    <script src="./src/js/textLink.js"></script>
     <script src="./src/js/app.js"></script>
 </body>
 </html>
