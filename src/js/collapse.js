@@ -5,7 +5,7 @@ showButton.addEventListener('click',function(){
 
   if (para.classList.contains('open')) {
     para.classList.remove('open');
-    showButton.innerText = 'Show';   
+    showButton.innerText = 'Somethings About Me';   
   } else { 
     para.classList.add('open');
     showButton.innerText = 'Hide';

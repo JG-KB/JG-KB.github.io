@@ -10,7 +10,7 @@ a{
 
 .aboutMePhoto{
 	border-top-style:  solid;
-	border-bottom-style: solid;
+	/* border-bottom-style: solid; */
 	border-right-style: solid;
 	border-left-style: solid;
 	border-top-color:  red;
@@ -127,8 +127,7 @@ header {
 }
 
 
-.textBoxP {
-	z-index: 1;
+.textBoxP  {
 	width: 200px;
 	display: none;
 	
@@ -136,9 +135,8 @@ header {
 	
   }
   
-  .textBoxP.open {
+  .textBoxP.open   {
 	display: block;
-	z-index: 1;
 	
   }
   
@@ -152,8 +150,12 @@ header {
 
 .proImageCap{
 	border-left-style: outset;
+	border-right-style: inset;
+	/* border-top-style: outset;  */
 	border-bottom-style: inset;
 	border-left-color: red;
+	border-right-color: red;
+	border-top-color: darkgreen;
 	border-bottom-color: darkgreen;
 	border-width: 10px;
 }
@@ -191,4 +193,58 @@ textarea{
 	opacity: 0;
 	
     
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+#modal-screen {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #333;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+
+  justify-content: center;
+  align-items: center;
+}
+
+body.modal-open #modal-screen {
+  display: flex;
+}
+
+.modalYoutubeLink {
+	color: red;
+}
+
+#modal-box {
+  color: gold;
+  background: darkgreen;
+  border: 2px solid red;
+
+  min-width: 300px;
+  max-width: 500px;
+  width: 80vw;
+
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 0 15px 5px black;
+  
+}
+
+#modal-box header {
+	
+display: flex;
+justify-content: space-between;
+margin-bottom: 1rem;
+}
+
+.textBoxP {
+	color: darkgreen;
+	border-style: groove;
+	border-color: red;
 }

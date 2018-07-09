@@ -19,6 +19,9 @@ document.querySelector("textarea").addEventListener("keyup", function() {
         if(this.value.toLowerCase() === "projects") {
             window.location.href="projects.html";
         }
+        if(this.value.toLowerCase() === "fun fact") {
+            openModal();
+        }
         }else{
             div.innerHTML= " Hello ! Type where you want to go! use the keywords located at the bottom of the page";
         }

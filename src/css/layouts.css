@@ -52,6 +52,7 @@
 		position: relative;
 		width: 100%;
 		justify-content: center;
+		display: flex;
 	
 }
 
@@ -152,6 +153,8 @@ footer.footerForIndexPage {
 	margin-bottom: 5vh;
 }
 
+
+
 .navMenuPhoto {
 	max-width: 115px;
 	border-radius: 50%;
@@ -181,7 +184,7 @@ footer.footerForIndexPage {
 	position: center;
 	text-align: center;
 	margin: 0;
-	background: #e6e6e6;
+	background: white;
 
 }
 
@@ -190,7 +193,9 @@ footer.footerForIndexPage {
 	width: 100%;
 	max-width: 700px;
 }
-
+.showButtonContainer{
+	text-align: center;
+}
 
 .show2{
 	display: block;
@@ -213,7 +218,7 @@ footer.footerForIndexPage {
 	width: auto;  
 	padding: 16px;  
 	margin-top: -22px;  
-	color: white;  
+	color:darkgreen;  
 	font-weight: bold;  
 	font-size: 18px;  
 	transition: 0.6s ease;  
@@ -224,7 +229,7 @@ footer.footerForIndexPage {
 	border-radius: 3px 0 0 3px;  
 }  
 	.left:hover, .right:hover {  
-		background-color: rgba(115, 115, 115, 0.8);  
+		background-color: red;  
 	}  
 .slideshowContent {  
 	color: #eff5d4;  
@@ -236,9 +241,9 @@ footer.footerForIndexPage {
 	text-align: center;  
 }  
 .active {  
-	background-color: #717171;  
+	background-color: darkgreen;  
 }  
-/* Fading animation */  
+
 .fade {  
 	-webkit-animation-name: fade;  
 	-webkit-animation-duration: 1.5s;  
